@@ -1,0 +1,30 @@
+0	icvCaptureFromCAM_V4L	cap_v4l.cpp	1112	0x12c04	
+1	CvCaptureCAM_V4L_CPP::open	cap_v4l.cpp	2894	0x17050	
+2	cvCreateCameraCapture_V4L	cap_v4l.cpp	2931	0x17280	
+3	cvCreateCameraCapture	cap.cpp	234	0xf34c	
+4	cv::VideoCapture_mod::open	cap.cpp	533	0xf8b8	
+5	main	main.cpp	152	0xe364	
+
+0	read_frame_v4l2	cap_v4l.cpp	1178	0x12e10	
+1	mainloop_v4l2	cap_v4l.cpp	1257	0x13184	
+2	icvGrabFrameCAM_V4L	cap_v4l.cpp	1351	0x1335c	
+3	CvCaptureCAM_V4L_CPP::grabFrame	cap_v4l.cpp	2909	0x17104	
+4	cvGrabFrame	cap.cpp	89	0xf110	
+5	cv::VideoCapture_mod::grab	cap.cpp	552	0xfa2c	
+6	cv::VideoCapture_mod::read	cap.cpp	578	0xfc40	
+7	cv::VideoCapture_mod::operator>>	cap.cpp	587	0xfd00	
+8	(anonymous namespace)::process	main.cpp	65	0xdb30	
+9	main	main.cpp	160	0xe3fc	
+
+0	yuyv_to_rgb24	cap_v4l.cpp	1652	0x14130	
+1	icvRetrieveFrameCAM_V4L	cap_v4l.cpp	2205	0x15e4c	megkapja S-t
+2	CvCaptureCAM_V4L_CPP::retrieveFrame	cap_v4l.cpp	2914	0x17160	megkapja S-t, int nem erdekes
+3	cvRetrieveFrame	cap.cpp	94	0xf164	megkapja S-t
+VideoCapture tarolja a lekeresi adatokat S strukturaban
+CvCapture.bufferIndex-et grab noveli, utana barhanyszor lehet retrieve
+4	cv::VideoCapture_mod::retrieve	cap.cpp	560	0xfae0	
+5	cv::VideoCapture_mod::read	cap.cpp	579	0xfc6c	
+6	cv::VideoCapture_mod::operator>>	cap.cpp	587	0xfd00	
+7	(anonymous namespace)::process	main.cpp	65	0xdb30	
+8	main	main.cpp	160	0xe3fc	
+

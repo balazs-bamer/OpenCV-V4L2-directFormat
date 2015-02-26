@@ -1,0 +1,4 @@
+// donfigured settings
+#define OpenCV_V4L2_directFormat_VERSION_MAJOR @OpenCV_V4L2_directFormat_VERSION_MAJOR@
+#define OpenCV_V4L2_directFormat_VERSION_MINOR @OpenCV_V4L2_directFormat_VERSION_MINOR@
+
