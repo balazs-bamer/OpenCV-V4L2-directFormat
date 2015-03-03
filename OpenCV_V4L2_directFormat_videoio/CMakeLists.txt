@@ -17,12 +17,16 @@ set(videoio_srcs
     ${CMAKE_CURRENT_LIST_DIR}/cap_images.cpp
     )
 
+OPTION(USE_DIAGNOSTIC "Use diagnostic version of cap_v4l" OFF)
 #if(HAVE_LIBV4L)
 #  list(APPEND videoio_srcs ${CMAKE_CURRENT_LIST_DIR}/cap_libv4l.cpp)
 #endif()
 #if(HAVE_CAMV4L OR HAVE_CAMV4L2 OR HAVE_VIDEOIO)
-  list(APPEND videoio_srcs ${CMAKE_CURRENT_LIST_DIR}/cap_v4l.cpp)
-#endif()
+if(USE_DIAGNOSTIC)
+  list(APPEND videoio_srcs ${CMAKE_CURRENT_LIST_DIR}/cap_v4l-diag.cpp)
+else()
+  list(APPEND videoio_srcs ${CMAKE_CURRENT_LIST_DIR}/cap_v4l-nodiag.cpp)
+endif()
 
 add_library(videoio_mod ${videoio_srcs} ${videoio_hdrs})
 

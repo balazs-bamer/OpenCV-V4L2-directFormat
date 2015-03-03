@@ -1,0 +1,1170 @@
+0.000860 try_init_v4l2: VIDIOC_QUERYCAP
+0.000705 try_init_v4l2: VIDIOC_G_INPUT
+0.000067 try_init_v4l2: VIDIOC_ENUMINPUT
+0.000070 v4l2_scan_controls: VIDIOC_QUERYCTRL
+0.000052 v4l2_scan_controls: VIDIOC_QUERYCTRL
+0.000049 v4l2_scan_controls: VIDIOC_QUERYCTRL
+0.000172 v4l2_scan_controls: VIDIOC_QUERYCTRL
+0.000106 v4l2_scan_controls: VIDIOC_QUERYCTRL
+0.000081 v4l2_scan_controls: VIDIOC_QUERYCTRL
+0.000057 v4l2_scan_controls: VIDIOC_QUERYCTRL
+0.000048 v4l2_scan_controls: VIDIOC_QUERYCTRL
+0.000047 v4l2_scan_controls: VIDIOC_QUERYCTRL
+0.000279 _capture_V4L2: VIDIOC_G_FMT
+0.026351 try_palette_v4l2: VIDIOC_S_FMT
+0.026504 try_palette_v4l2: VIDIOC_S_FMT
+0.026471 try_palette_v4l2: VIDIOC_S_FMT
+0.026815 try_palette_v4l2: VIDIOC_S_FMT
+0.000093 cvSetVideoSize: VIDIOC_CROPCAP
+0.000878 cvSetVideoSize: VIDIOC_S_CROP
+0.000112 cvSetVideoSize: VIDIOC_G_FMT
+0.026263 cvSetVideoSize: VIDIOC_S_FMT
+0.025695 cvSetVideoSize: VIDIOC_S_PARM
+0.000085 cvSetVideoSize: VIDIOC_G_FMT
+0.002504 _capture_V4L2: VIDIOC_REQBUFS
+0.000056 _capture_V4L2: req.count:  4
+0.000208 _capture_V4L2: VIDIOC_QUERYBUF
+0.000619 _capture_V4L2: VIDIOC_QUERYBUF
+0.000483 _capture_V4L2: VIDIOC_QUERYBUF
+0.000461 _capture_V4L2: VIDIOC_QUERYBUF
+0.000819 cvSetVideoSize: VIDIOC_CROPCAP
+0.001038 cvSetVideoSize: VIDIOC_S_CROP
+0.000120 cvSetVideoSize: VIDIOC_G_FMT
+0.026681 cvSetVideoSize: VIDIOC_S_FMT
+0.025705 cvSetVideoSize: VIDIOC_S_PARM
+0.000082 cvSetVideoSize: VIDIOC_G_FMT
+0.006273 icvGrabFrameCAM_V4L: first run...
+0.000126 icvGrabFrameCAM_V4L: VIDIOC_QBUF
+0.000057 icvGrabFrameCAM_V4L: VIDIOC_QBUF
+0.000047 icvGrabFrameCAM_V4L: VIDIOC_QBUF
+0.000307 icvGrabFrameCAM_V4L: VIDIOC_QBUF
+0.011209 icvGrabFrameCAM_V4L: VIDIOC_STREAMON
+0.136835 mainloop_v4l2: select:  1
+0.000113 mainloop_v4l2: select:  9 863463
+0.000079 read_frame_v4l2: VIDIOC_DQBUF
+0.000037 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.003880 read_frame_v4l2: bufferIndex:  10
+0.000124 read_frame_v4l2: ### cnt ###  0
+0.000120 read_frame_v4l2: VIDIOC_QBUF
+0.000046 read_frame_v4l2: buf.timestamp:  0 0
+0.028245 mainloop_v4l2: select:  1
+0.000194 mainloop_v4l2: select:  9 971807
+0.000086 read_frame_v4l2: VIDIOC_DQBUF
+0.000044 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001632 read_frame_v4l2: bufferIndex:  10
+0.000079 read_frame_v4l2: ### cnt ###  1
+0.000088 read_frame_v4l2: VIDIOC_QBUF
+0.000040 read_frame_v4l2: buf.timestamp:  0 0
+0.000045 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000033 icvRetrieveFrameCAM_V4L: ### cnt ###  1
+0.002814 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000090 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000056 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000069 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.030418 mainloop_v4l2: select:  1
+0.000115 mainloop_v4l2: select:  9 974826
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001648 read_frame_v4l2: bufferIndex:  10
+0.000083 read_frame_v4l2: ### cnt ###  2
+0.000087 read_frame_v4l2: VIDIOC_QBUF
+0.000042 read_frame_v4l2: buf.timestamp:  0 0
+0.000044 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000032 icvRetrieveFrameCAM_V4L: ### cnt ###  2
+0.012401 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000081 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000070 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000048 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.017509 mainloop_v4l2: select:  1
+0.000119 mainloop_v4l2: select:  9 986197
+0.000081 read_frame_v4l2: VIDIOC_DQBUF
+0.000040 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001762 read_frame_v4l2: bufferIndex:  10
+0.000108 read_frame_v4l2: ### cnt ###  3
+0.000086 read_frame_v4l2: VIDIOC_QBUF
+0.000040 read_frame_v4l2: buf.timestamp:  0 0
+0.000046 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000031 icvRetrieveFrameCAM_V4L: ### cnt ###  3
+0.010996 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000085 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000071 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000057 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000066 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.051259 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 953010
+0.000078 read_frame_v4l2: VIDIOC_DQBUF
+0.000043 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001630 read_frame_v4l2: bufferIndex:  10
+0.000081 read_frame_v4l2: ### cnt ###  4
+0.000089 read_frame_v4l2: VIDIOC_QBUF
+0.000110 read_frame_v4l2: buf.timestamp:  0 0
+0.000060 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000036 icvRetrieveFrameCAM_V4L: ### cnt ###  4
+0.010851 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000083 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000080 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000071 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000049 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.023076 mainloop_v4l2: select:  1
+0.000122 mainloop_v4l2: select:  9 981335
+0.000079 read_frame_v4l2: VIDIOC_DQBUF
+0.000037 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001649 read_frame_v4l2: bufferIndex:  10
+0.000081 read_frame_v4l2: ### cnt ###  5
+0.000082 read_frame_v4l2: VIDIOC_QBUF
+0.000044 read_frame_v4l2: buf.timestamp:  0 0
+0.000041 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000039 icvRetrieveFrameCAM_V4L: ### cnt ###  5
+0.010906 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000084 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000075 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000056 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000068 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.051316 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 953087
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000038 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001642 read_frame_v4l2: bufferIndex:  10
+0.000080 read_frame_v4l2: ### cnt ###  6
+0.000088 read_frame_v4l2: VIDIOC_QBUF
+0.000039 read_frame_v4l2: buf.timestamp:  0 0
+0.000043 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000030 icvRetrieveFrameCAM_V4L: ### cnt ###  6
+0.011048 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000081 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000054 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000065 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.055397 mainloop_v4l2: select:  1
+0.000153 mainloop_v4l2: select:  9 949043
+0.000087 read_frame_v4l2: VIDIOC_DQBUF
+0.000037 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001647 read_frame_v4l2: bufferIndex:  10
+0.000084 read_frame_v4l2: ### cnt ###  7
+0.000080 read_frame_v4l2: VIDIOC_QBUF
+0.000047 read_frame_v4l2: buf.timestamp:  0 0
+0.000041 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000036 icvRetrieveFrameCAM_V4L: ### cnt ###  7
+0.010945 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000084 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000072 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000056 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000068 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.051323 mainloop_v4l2: select:  1
+0.000115 mainloop_v4l2: select:  9 953128
+0.000086 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001880 read_frame_v4l2: bufferIndex:  10
+0.000120 read_frame_v4l2: ### cnt ###  8
+0.000089 read_frame_v4l2: VIDIOC_QBUF
+0.000036 read_frame_v4l2: buf.timestamp:  0 0
+0.000043 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000037 icvRetrieveFrameCAM_V4L: ### cnt ###  8
+0.010957 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000083 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000067 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018736 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 986554
+0.000079 read_frame_v4l2: VIDIOC_DQBUF
+0.000041 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001640 read_frame_v4l2: bufferIndex:  10
+0.000088 read_frame_v4l2: ### cnt ###  9
+0.000080 read_frame_v4l2: VIDIOC_QBUF
+0.000047 read_frame_v4l2: buf.timestamp:  0 0
+0.000042 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000034 icvRetrieveFrameCAM_V4L: ### cnt ###  9
+0.010792 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000223 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000092 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000055 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000071 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000056 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018919 mainloop_v4l2: select:  1
+0.000116 mainloop_v4l2: select:  9 985408
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001632 read_frame_v4l2: bufferIndex:  10
+0.000082 read_frame_v4l2: ### cnt ###  10
+0.000084 read_frame_v4l2: VIDIOC_QBUF
+0.000041 read_frame_v4l2: buf.timestamp:  0 0
+0.000048 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000030 icvRetrieveFrameCAM_V4L: ### cnt ###  10
+0.010658 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000081 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000090 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.055521 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 948798
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000040 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001754 read_frame_v4l2: bufferIndex:  10
+0.000105 read_frame_v4l2: ### cnt ###  11
+0.000086 read_frame_v4l2: VIDIOC_QBUF
+0.000041 read_frame_v4l2: buf.timestamp:  0 0
+0.000040 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000037 icvRetrieveFrameCAM_V4L: ### cnt ###  11
+0.010998 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000076 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000058 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000065 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000054 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019013 mainloop_v4l2: select:  1
+0.000122 mainloop_v4l2: select:  9 985453
+0.000081 read_frame_v4l2: VIDIOC_DQBUF
+0.000037 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001761 read_frame_v4l2: bufferIndex:  10
+0.000106 read_frame_v4l2: ### cnt ###  12
+0.000085 read_frame_v4l2: VIDIOC_QBUF
+0.000038 read_frame_v4l2: buf.timestamp:  0 0
+0.000047 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000030 icvRetrieveFrameCAM_V4L: ### cnt ###  12
+0.010914 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000067 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019076 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 985380
+0.000076 read_frame_v4l2: VIDIOC_DQBUF
+0.000042 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001738 read_frame_v4l2: bufferIndex:  10
+0.000106 read_frame_v4l2: ### cnt ###  13
+0.000085 read_frame_v4l2: VIDIOC_QBUF
+0.000041 read_frame_v4l2: buf.timestamp:  0 0
+0.000041 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000038 icvRetrieveFrameCAM_V4L: ### cnt ###  13
+0.010867 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000079 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000069 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000049 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019292 mainloop_v4l2: select:  1
+0.000116 mainloop_v4l2: select:  9 985061
+0.000084 read_frame_v4l2: VIDIOC_DQBUF
+0.000035 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001740 read_frame_v4l2: bufferIndex:  10
+0.000102 read_frame_v4l2: ### cnt ###  14
+0.000084 read_frame_v4l2: VIDIOC_QBUF
+0.000043 read_frame_v4l2: buf.timestamp:  0 0
+0.000046 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000030 icvRetrieveFrameCAM_V4L: ### cnt ###  14
+0.010806 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000084 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000049 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000065 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000054 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.022791 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 981619
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000039 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001637 read_frame_v4l2: bufferIndex:  10
+0.000081 read_frame_v4l2: ### cnt ###  15
+0.000088 read_frame_v4l2: VIDIOC_QBUF
+0.000041 read_frame_v4l2: buf.timestamp:  0 0
+0.000044 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000039 icvRetrieveFrameCAM_V4L: ### cnt ###  15
+0.010971 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000084 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000119 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000232 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000066 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018898 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 985378
+0.000081 read_frame_v4l2: VIDIOC_DQBUF
+0.000035 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001779 read_frame_v4l2: bufferIndex:  10
+0.000110 read_frame_v4l2: ### cnt ###  16
+0.000087 read_frame_v4l2: VIDIOC_QBUF
+0.000040 read_frame_v4l2: buf.timestamp:  0 0
+0.000047 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000031 icvRetrieveFrameCAM_V4L: ### cnt ###  16
+0.010968 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000084 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000069 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018880 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 985425
+0.000083 read_frame_v4l2: VIDIOC_DQBUF
+0.000038 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001644 read_frame_v4l2: bufferIndex:  10
+0.000085 read_frame_v4l2: ### cnt ###  17
+0.000088 read_frame_v4l2: VIDIOC_QBUF
+0.000041 read_frame_v4l2: buf.timestamp:  0 0
+0.000044 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000037 icvRetrieveFrameCAM_V4L: ### cnt ###  17
+0.011149 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000084 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000072 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000071 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000056 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018841 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 985461
+0.000078 read_frame_v4l2: VIDIOC_DQBUF
+0.000035 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001747 read_frame_v4l2: bufferIndex:  10
+0.000104 read_frame_v4l2: ### cnt ###  18
+0.000079 read_frame_v4l2: VIDIOC_QBUF
+0.000043 read_frame_v4l2: buf.timestamp:  0 0
+0.000040 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000035 icvRetrieveFrameCAM_V4L: ### cnt ###  18
+0.010841 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000074 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000058 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000074 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019195 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 985304
+0.000079 read_frame_v4l2: VIDIOC_DQBUF
+0.000044 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001737 read_frame_v4l2: bufferIndex:  10
+0.000103 read_frame_v4l2: ### cnt ###  19
+0.000093 read_frame_v4l2: VIDIOC_QBUF
+0.000041 read_frame_v4l2: buf.timestamp:  0 0
+0.000046 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000032 icvRetrieveFrameCAM_V4L: ### cnt ###  19
+0.010766 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000085 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000197 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000070 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000072 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000055 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.022721 mainloop_v4l2: select:  1
+0.000114 mainloop_v4l2: select:  9 981648
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000039 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001645 read_frame_v4l2: bufferIndex:  10
+0.000084 read_frame_v4l2: ### cnt ###  20
+0.000083 read_frame_v4l2: VIDIOC_QBUF
+0.000046 read_frame_v4l2: buf.timestamp:  0 0
+0.000042 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000036 icvRetrieveFrameCAM_V4L: ### cnt ###  20
+0.011151 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000084 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000074 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000055 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000065 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018697 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 985709
+0.000080 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001796 read_frame_v4l2: bufferIndex:  10
+0.000100 read_frame_v4l2: ### cnt ###  21
+0.000087 read_frame_v4l2: VIDIOC_QBUF
+0.000041 read_frame_v4l2: buf.timestamp:  0 0
+0.000047 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000033 icvRetrieveFrameCAM_V4L: ### cnt ###  21
+0.010994 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000055 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000066 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000055 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018970 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 985314
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000042 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001859 read_frame_v4l2: bufferIndex:  10
+0.000114 read_frame_v4l2: ### cnt ###  22
+0.000087 read_frame_v4l2: VIDIOC_QBUF
+0.000091 read_frame_v4l2: buf.timestamp:  0 0
+0.000052 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000032 icvRetrieveFrameCAM_V4L: ### cnt ###  22
+0.010989 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000074 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000057 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000068 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.054827 mainloop_v4l2: select:  1
+0.000115 mainloop_v4l2: select:  9 949482
+0.000084 read_frame_v4l2: VIDIOC_DQBUF
+0.000037 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001751 read_frame_v4l2: bufferIndex:  10
+0.000107 read_frame_v4l2: ### cnt ###  23
+0.000090 read_frame_v4l2: VIDIOC_QBUF
+0.000034 read_frame_v4l2: buf.timestamp:  0 0
+0.000042 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000038 icvRetrieveFrameCAM_V4L: ### cnt ###  23
+0.010853 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000080 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000079 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000176 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000084 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018637 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 985825
+0.000081 read_frame_v4l2: VIDIOC_DQBUF
+0.000034 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001859 read_frame_v4l2: bufferIndex:  10
+0.000114 read_frame_v4l2: ### cnt ###  24
+0.000091 read_frame_v4l2: VIDIOC_QBUF
+0.000037 read_frame_v4l2: buf.timestamp:  0 0
+0.000040 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000032 icvRetrieveFrameCAM_V4L: ### cnt ###  24
+0.010847 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000084 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000072 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000049 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018909 mainloop_v4l2: select:  1
+0.000116 mainloop_v4l2: select:  9 985566
+0.000085 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001756 read_frame_v4l2: bufferIndex:  10
+0.000104 read_frame_v4l2: ### cnt ###  25
+0.000090 read_frame_v4l2: VIDIOC_QBUF
+0.000038 read_frame_v4l2: buf.timestamp:  0 0
+0.000043 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000036 icvRetrieveFrameCAM_V4L: ### cnt ###  25
+0.010804 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000073 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000056 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000066 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000055 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019400 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 984939
+0.000079 read_frame_v4l2: VIDIOC_DQBUF
+0.000041 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001639 read_frame_v4l2: bufferIndex:  10
+0.000080 read_frame_v4l2: ### cnt ###  26
+0.000087 read_frame_v4l2: VIDIOC_QBUF
+0.000045 read_frame_v4l2: buf.timestamp:  0 0
+0.000042 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000033 icvRetrieveFrameCAM_V4L: ### cnt ###  26
+0.010888 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000074 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000054 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000071 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000049 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019239 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 985223
+0.000083 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001632 read_frame_v4l2: bufferIndex:  10
+0.000082 read_frame_v4l2: ### cnt ###  27
+0.000082 read_frame_v4l2: VIDIOC_QBUF
+0.000043 read_frame_v4l2: buf.timestamp:  0 0
+0.000048 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000032 icvRetrieveFrameCAM_V4L: ### cnt ###  27
+0.010622 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000085 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000071 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000055 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000262 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.023015 mainloop_v4l2: select:  1
+0.000120 mainloop_v4l2: select:  9 981351
+0.000084 read_frame_v4l2: VIDIOC_DQBUF
+0.000082 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001763 read_frame_v4l2: bufferIndex:  10
+0.000111 read_frame_v4l2: ### cnt ###  28
+0.000080 read_frame_v4l2: VIDIOC_QBUF
+0.000042 read_frame_v4l2: buf.timestamp:  0 0
+0.000040 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000033 icvRetrieveFrameCAM_V4L: ### cnt ###  28
+0.010976 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000083 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000076 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000054 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000067 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.051231 mainloop_v4l2: select:  1
+0.000113 mainloop_v4l2: select:  9 953221
+0.000085 read_frame_v4l2: VIDIOC_DQBUF
+0.000042 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001863 read_frame_v4l2: bufferIndex:  10
+0.000118 read_frame_v4l2: ### cnt ###  29
+0.000080 read_frame_v4l2: VIDIOC_QBUF
+0.000038 read_frame_v4l2: buf.timestamp:  0 0
+0.000046 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000030 icvRetrieveFrameCAM_V4L: ### cnt ###  29
+0.011002 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000081 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000054 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000064 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.054975 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 949376
+0.000081 read_frame_v4l2: VIDIOC_DQBUF
+0.000037 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001643 read_frame_v4l2: bufferIndex:  10
+0.000081 read_frame_v4l2: ### cnt ###  30
+0.000087 read_frame_v4l2: VIDIOC_QBUF
+0.000042 read_frame_v4l2: buf.timestamp:  0 0
+0.000043 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000031 icvRetrieveFrameCAM_V4L: ### cnt ###  30
+0.010978 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000198 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000088 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000073 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000048 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.050810 mainloop_v4l2: select:  1
+0.000113 mainloop_v4l2: select:  9 953465
+0.000080 read_frame_v4l2: VIDIOC_DQBUF
+0.000040 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001641 read_frame_v4l2: bufferIndex:  10
+0.000077 read_frame_v4l2: ### cnt ###  31
+0.000087 read_frame_v4l2: VIDIOC_QBUF
+0.000043 read_frame_v4l2: buf.timestamp:  0 0
+0.000049 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000032 icvRetrieveFrameCAM_V4L: ### cnt ###  31
+0.011059 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000085 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000068 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018863 mainloop_v4l2: select:  1
+0.000116 mainloop_v4l2: select:  9 985431
+0.000081 read_frame_v4l2: VIDIOC_DQBUF
+0.000037 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001639 read_frame_v4l2: bufferIndex:  10
+0.000079 read_frame_v4l2: ### cnt ###  32
+0.000083 read_frame_v4l2: VIDIOC_QBUF
+0.000043 read_frame_v4l2: buf.timestamp:  0 0
+0.000047 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000031 icvRetrieveFrameCAM_V4L: ### cnt ###  32
+0.010813 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000069 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.023216 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 981231
+0.000077 read_frame_v4l2: VIDIOC_DQBUF
+0.000040 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001638 read_frame_v4l2: bufferIndex:  10
+0.000086 read_frame_v4l2: ### cnt ###  33
+0.000080 read_frame_v4l2: VIDIOC_QBUF
+0.000049 read_frame_v4l2: buf.timestamp:  0 0
+0.000041 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000033 icvRetrieveFrameCAM_V4L: ### cnt ###  33
+0.010960 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000083 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000072 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000070 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000095 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.051310 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 954926
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001644 read_frame_v4l2: bufferIndex:  10
+0.000082 read_frame_v4l2: ### cnt ###  34
+0.000087 read_frame_v4l2: VIDIOC_QBUF
+0.000038 read_frame_v4l2: buf.timestamp:  0 0
+0.000045 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000030 icvRetrieveFrameCAM_V4L: ### cnt ###  34
+0.011048 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000085 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000056 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000069 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.051598 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 952851
+0.000078 read_frame_v4l2: VIDIOC_DQBUF
+0.000040 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001630 read_frame_v4l2: bufferIndex:  10
+0.000080 read_frame_v4l2: ### cnt ###  35
+0.000082 read_frame_v4l2: VIDIOC_QBUF
+0.000050 read_frame_v4l2: buf.timestamp:  0 0
+0.000043 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000036 icvRetrieveFrameCAM_V4L: ### cnt ###  35
+0.010705 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000083 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000049 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000073 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000049 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.055435 mainloop_v4l2: select:  1
+0.000116 mainloop_v4l2: select:  9 948823
+0.000085 read_frame_v4l2: VIDIOC_DQBUF
+0.000038 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001881 read_frame_v4l2: bufferIndex:  10
+0.000118 read_frame_v4l2: ### cnt ###  36
+0.000085 read_frame_v4l2: VIDIOC_QBUF
+0.000038 read_frame_v4l2: buf.timestamp:  0 0
+0.000040 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000037 icvRetrieveFrameCAM_V4L: ### cnt ###  36
+0.010878 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000080 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000075 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000058 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000068 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000049 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.051048 mainloop_v4l2: select:  1
+0.000115 mainloop_v4l2: select:  9 953333
+0.000084 read_frame_v4l2: VIDIOC_DQBUF
+0.000035 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001634 read_frame_v4l2: bufferIndex:  10
+0.000083 read_frame_v4l2: ### cnt ###  37
+0.000084 read_frame_v4l2: VIDIOC_QBUF
+0.000045 read_frame_v4l2: buf.timestamp:  0 0
+0.000046 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000032 icvRetrieveFrameCAM_V4L: ### cnt ###  37
+0.010777 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000079 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000066 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.022929 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 981534
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000038 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001851 read_frame_v4l2: bufferIndex:  10
+0.000118 read_frame_v4l2: ### cnt ###  38
+0.000089 read_frame_v4l2: VIDIOC_QBUF
+0.000036 read_frame_v4l2: buf.timestamp:  0 0
+0.000109 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000042 icvRetrieveFrameCAM_V4L: ### cnt ###  38
+0.010890 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000083 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000075 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000054 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000073 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000048 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018553 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 985734
+0.000083 read_frame_v4l2: VIDIOC_DQBUF
+0.000037 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001645 read_frame_v4l2: bufferIndex:  10
+0.000082 read_frame_v4l2: ### cnt ###  39
+0.000090 read_frame_v4l2: VIDIOC_QBUF
+0.000042 read_frame_v4l2: buf.timestamp:  0 0
+0.000126 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000036 icvRetrieveFrameCAM_V4L: ### cnt ###  39
+0.011057 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000086 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000072 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000057 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000068 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018876 mainloop_v4l2: select:  1
+0.000113 mainloop_v4l2: select:  9 985418
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000037 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001754 read_frame_v4l2: bufferIndex:  10
+0.000106 read_frame_v4l2: ### cnt ###  40
+0.000084 read_frame_v4l2: VIDIOC_QBUF
+0.000040 read_frame_v4l2: buf.timestamp:  0 0
+0.000041 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000037 icvRetrieveFrameCAM_V4L: ### cnt ###  40
+0.010923 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000080 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000068 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019072 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 985354
+0.000075 read_frame_v4l2: VIDIOC_DQBUF
+0.000042 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001751 read_frame_v4l2: bufferIndex:  10
+0.000104 read_frame_v4l2: ### cnt ###  41
+0.000085 read_frame_v4l2: VIDIOC_QBUF
+0.000040 read_frame_v4l2: buf.timestamp:  0 0
+0.000047 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000032 icvRetrieveFrameCAM_V4L: ### cnt ###  41
+0.010991 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000080 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000076 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000071 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019089 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 985245
+0.000083 read_frame_v4l2: VIDIOC_DQBUF
+0.000035 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001822 read_frame_v4l2: bufferIndex:  10
+0.000099 read_frame_v4l2: ### cnt ###  42
+0.000086 read_frame_v4l2: VIDIOC_QBUF
+0.000111 read_frame_v4l2: buf.timestamp:  0 0
+0.000050 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000033 icvRetrieveFrameCAM_V4L: ### cnt ###  42
+0.010587 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000083 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000080 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000069 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000054 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.022914 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 981478
+0.000080 read_frame_v4l2: VIDIOC_DQBUF
+0.000034 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001646 read_frame_v4l2: bufferIndex:  10
+0.000083 read_frame_v4l2: ### cnt ###  43
+0.000088 read_frame_v4l2: VIDIOC_QBUF
+0.000040 read_frame_v4l2: buf.timestamp:  0 0
+0.000041 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000038 icvRetrieveFrameCAM_V4L: ### cnt ###  43
+0.010978 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000081 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000081 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000071 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000048 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019164 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 985065
+0.000079 read_frame_v4l2: VIDIOC_DQBUF
+0.000038 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001879 read_frame_v4l2: bufferIndex:  10
+0.000116 read_frame_v4l2: ### cnt ###  44
+0.000370 read_frame_v4l2: VIDIOC_QBUF
+0.000063 read_frame_v4l2: buf.timestamp:  0 0
+0.000043 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000034 icvRetrieveFrameCAM_V4L: ### cnt ###  44
+0.011158 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000076 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000075 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018247 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 985962
+0.000086 read_frame_v4l2: VIDIOC_DQBUF
+0.000037 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001637 read_frame_v4l2: bufferIndex:  10
+0.000085 read_frame_v4l2: ### cnt ###  45
+0.000083 read_frame_v4l2: VIDIOC_QBUF
+0.000048 read_frame_v4l2: buf.timestamp:  0 0
+0.000043 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000076 icvRetrieveFrameCAM_V4L: ### cnt ###  45
+0.011039 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000083 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000073 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000070 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019065 mainloop_v4l2: select:  1
+0.000111 mainloop_v4l2: select:  9 985210
+0.000086 read_frame_v4l2: VIDIOC_DQBUF
+0.000035 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001650 read_frame_v4l2: bufferIndex:  10
+0.000087 read_frame_v4l2: ### cnt ###  46
+0.000086 read_frame_v4l2: VIDIOC_QBUF
+0.000039 read_frame_v4l2: buf.timestamp:  0 0
+0.000045 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000032 icvRetrieveFrameCAM_V4L: ### cnt ###  46
+0.010920 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000084 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000075 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000055 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000067 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000049 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019205 mainloop_v4l2: select:  1
+0.000110 mainloop_v4l2: select:  9 985245
+0.000085 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001741 read_frame_v4l2: bufferIndex:  10
+0.000105 read_frame_v4l2: ### cnt ###  47
+0.000081 read_frame_v4l2: VIDIOC_QBUF
+0.000044 read_frame_v4l2: buf.timestamp:  0 0
+0.000044 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000029 icvRetrieveFrameCAM_V4L: ### cnt ###  47
+0.010857 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000067 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.022921 mainloop_v4l2: select:  1
+0.000114 mainloop_v4l2: select:  9 981554
+0.000086 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001645 read_frame_v4l2: bufferIndex:  10
+0.000083 read_frame_v4l2: ### cnt ###  48
+0.000090 read_frame_v4l2: VIDIOC_QBUF
+0.000042 read_frame_v4l2: buf.timestamp:  0 0
+0.000045 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000031 icvRetrieveFrameCAM_V4L: ### cnt ###  48
+0.010940 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000085 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000151 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000060 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000131 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.051394 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 952978
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000037 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001641 read_frame_v4l2: bufferIndex:  10
+0.000087 read_frame_v4l2: ### cnt ###  49
+0.000079 read_frame_v4l2: VIDIOC_QBUF
+0.000048 read_frame_v4l2: buf.timestamp:  0 0
+0.000041 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000033 icvRetrieveFrameCAM_V4L: ### cnt ###  49
+0.011308 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000057 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000065 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000049 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.055055 mainloop_v4l2: select:  1
+0.000116 mainloop_v4l2: select:  9 949260
+0.000080 read_frame_v4l2: VIDIOC_DQBUF
+0.000041 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001765 read_frame_v4l2: bufferIndex:  10
+0.000107 read_frame_v4l2: ### cnt ###  50
+0.000085 read_frame_v4l2: VIDIOC_QBUF
+0.000043 read_frame_v4l2: buf.timestamp:  0 0
+0.000040 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000033 icvRetrieveFrameCAM_V4L: ### cnt ###  50
+0.010907 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000085 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000190 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000070 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000076 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.083228 mainloop_v4l2: select:  1
+0.000119 mainloop_v4l2: select:  9 921245
+0.000083 read_frame_v4l2: VIDIOC_DQBUF
+0.000037 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001745 read_frame_v4l2: bufferIndex:  10
+0.000147 read_frame_v4l2: ### cnt ###  51
+0.000095 read_frame_v4l2: VIDIOC_QBUF
+0.000037 read_frame_v4l2: buf.timestamp:  0 0
+0.000048 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000033 icvRetrieveFrameCAM_V4L: ### cnt ###  51
+0.010720 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000080 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000069 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000046 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019444 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 985057
+0.000085 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001636 read_frame_v4l2: bufferIndex:  10
+0.000082 read_frame_v4l2: ### cnt ###  52
+0.000085 read_frame_v4l2: VIDIOC_QBUF
+0.000043 read_frame_v4l2: buf.timestamp:  0 0
+0.000046 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000032 icvRetrieveFrameCAM_V4L: ### cnt ###  52
+0.010740 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000057 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000066 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.055334 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 948981
+0.000086 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001752 read_frame_v4l2: bufferIndex:  10
+0.000106 read_frame_v4l2: ### cnt ###  53
+0.000089 read_frame_v4l2: VIDIOC_QBUF
+0.000038 read_frame_v4l2: buf.timestamp:  0 0
+0.000042 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000032 icvRetrieveFrameCAM_V4L: ### cnt ###  53
+0.010960 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000085 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000075 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000056 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000067 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000054 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018913 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 985503
+0.000086 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001756 read_frame_v4l2: bufferIndex:  10
+0.000105 read_frame_v4l2: ### cnt ###  54
+0.000089 read_frame_v4l2: VIDIOC_QBUF
+0.000038 read_frame_v4l2: buf.timestamp:  0 0
+0.000043 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000031 icvRetrieveFrameCAM_V4L: ### cnt ###  54
+0.011097 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000074 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000049 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019225 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 985148
+0.000080 read_frame_v4l2: VIDIOC_DQBUF
+0.000042 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001640 read_frame_v4l2: bufferIndex:  10
+0.000080 read_frame_v4l2: ### cnt ###  55
+0.000083 read_frame_v4l2: VIDIOC_QBUF
+0.000045 read_frame_v4l2: buf.timestamp:  0 0
+0.000047 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000030 icvRetrieveFrameCAM_V4L: ### cnt ###  55
+0.010862 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000085 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000074 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000055 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000066 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019236 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 985168
+0.000076 read_frame_v4l2: VIDIOC_DQBUF
+0.000043 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001633 read_frame_v4l2: bufferIndex:  10
+0.000083 read_frame_v4l2: ### cnt ###  56
+0.000086 read_frame_v4l2: VIDIOC_QBUF
+0.000042 read_frame_v4l2: buf.timestamp:  0 0
+0.000043 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000036 icvRetrieveFrameCAM_V4L: ### cnt ###  56
+0.010669 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000085 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000073 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000056 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000069 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000055 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.055236 mainloop_v4l2: select:  1
+0.000171 mainloop_v4l2: select:  9 949236
+0.000089 read_frame_v4l2: VIDIOC_DQBUF
+0.000039 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001641 read_frame_v4l2: bufferIndex:  10
+0.000084 read_frame_v4l2: ### cnt ###  57
+0.000081 read_frame_v4l2: VIDIOC_QBUF
+0.000048 read_frame_v4l2: buf.timestamp:  0 0
+0.000044 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000030 icvRetrieveFrameCAM_V4L: ### cnt ###  57
+0.011012 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000070 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018772 mainloop_v4l2: select:  1
+0.000112 mainloop_v4l2: select:  9 985518
+0.000080 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001648 read_frame_v4l2: bufferIndex:  10
+0.000084 read_frame_v4l2: ### cnt ###  58
+0.000088 read_frame_v4l2: VIDIOC_QBUF
+0.000041 read_frame_v4l2: buf.timestamp:  0 0
+0.000045 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000037 icvRetrieveFrameCAM_V4L: ### cnt ###  58
+0.010896 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000081 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000076 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000058 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000067 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019074 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 985334
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001633 read_frame_v4l2: bufferIndex:  10
+0.000211 read_frame_v4l2: ### cnt ###  59
+0.000093 read_frame_v4l2: VIDIOC_QBUF
+0.000043 read_frame_v4l2: buf.timestamp:  0 0
+0.000039 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000036 icvRetrieveFrameCAM_V4L: ### cnt ###  59
+0.010655 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000072 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.023190 mainloop_v4l2: select:  1
+0.000119 mainloop_v4l2: select:  9 981126
+0.000081 read_frame_v4l2: VIDIOC_DQBUF
+0.000041 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001647 read_frame_v4l2: bufferIndex:  10
+0.000081 read_frame_v4l2: ### cnt ###  60
+0.000087 read_frame_v4l2: VIDIOC_QBUF
+0.000046 read_frame_v4l2: buf.timestamp:  0 0
+0.000042 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000032 icvRetrieveFrameCAM_V4L: ### cnt ###  60
+0.011041 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000085 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000076 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000117 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000129 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000059 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.050884 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 953608
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001641 read_frame_v4l2: bufferIndex:  10
+0.000084 read_frame_v4l2: ### cnt ###  61
+0.000089 read_frame_v4l2: VIDIOC_QBUF
+0.000043 read_frame_v4l2: buf.timestamp:  0 0
+0.000046 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000037 icvRetrieveFrameCAM_V4L: ### cnt ###  61
+0.011011 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000071 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.055032 mainloop_v4l2: select:  1
+0.000122 mainloop_v4l2: select:  9 949314
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000037 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001746 read_frame_v4l2: bufferIndex:  10
+0.000101 read_frame_v4l2: ### cnt ###  62
+0.000086 read_frame_v4l2: VIDIOC_QBUF
+0.000041 read_frame_v4l2: buf.timestamp:  0 0
+0.000047 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000031 icvRetrieveFrameCAM_V4L: ### cnt ###  62
+0.011046 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000083 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000120 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000055 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018937 mainloop_v4l2: select:  1
+0.000119 mainloop_v4l2: select:  9 985502
+0.000078 read_frame_v4l2: VIDIOC_DQBUF
+0.000041 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001768 read_frame_v4l2: bufferIndex:  10
+0.000109 read_frame_v4l2: ### cnt ###  63
+0.000084 read_frame_v4l2: VIDIOC_QBUF
+0.000043 read_frame_v4l2: buf.timestamp:  0 0
+0.000041 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000034 icvRetrieveFrameCAM_V4L: ### cnt ###  63
+0.010927 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000079 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000072 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.051117 mainloop_v4l2: select:  1
+0.000116 mainloop_v4l2: select:  9 953260
+0.000076 read_frame_v4l2: VIDIOC_DQBUF
+0.000043 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001636 read_frame_v4l2: bufferIndex:  10
+0.000082 read_frame_v4l2: ### cnt ###  64
+0.000078 read_frame_v4l2: VIDIOC_QBUF
+0.000048 read_frame_v4l2: buf.timestamp:  0 0
+0.000045 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000037 icvRetrieveFrameCAM_V4L: ### cnt ###  64
+0.010865 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000078 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000068 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000049 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.022873 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 981605
+0.000085 read_frame_v4l2: VIDIOC_DQBUF
+0.000038 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001759 read_frame_v4l2: bufferIndex:  10
+0.000109 read_frame_v4l2: ### cnt ###  65
+0.000091 read_frame_v4l2: VIDIOC_QBUF
+0.000038 read_frame_v4l2: buf.timestamp:  0 0
+0.000043 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000031 icvRetrieveFrameCAM_V4L: ### cnt ###  65
+0.011013 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000079 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000077 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000069 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.050798 mainloop_v4l2: select:  1
+0.000123 mainloop_v4l2: select:  9 953475
+0.000080 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001649 read_frame_v4l2: bufferIndex:  10
+0.000081 read_frame_v4l2: ### cnt ###  66
+0.000084 read_frame_v4l2: VIDIOC_QBUF
+0.000046 read_frame_v4l2: buf.timestamp:  0 0
+0.000046 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000032 icvRetrieveFrameCAM_V4L: ### cnt ###  66
+0.011062 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000086 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000080 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000074 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000050 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.018903 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 985553
+0.000079 read_frame_v4l2: VIDIOC_DQBUF
+0.000043 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  3
+0.001697 read_frame_v4l2: bufferIndex:  10
+0.000143 read_frame_v4l2: ### cnt ###  67
+0.000094 read_frame_v4l2: VIDIOC_QBUF
+0.000040 read_frame_v4l2: buf.timestamp:  0 0
+0.000043 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000036 icvRetrieveFrameCAM_V4L: ### cnt ###  67
+0.010725 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000079 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000076 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000073 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.023172 mainloop_v4l2: select:  1
+0.000123 mainloop_v4l2: select:  9 981157
+0.000079 read_frame_v4l2: VIDIOC_DQBUF
+0.000035 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  0
+0.001652 read_frame_v4l2: bufferIndex:  10
+0.000080 read_frame_v4l2: ### cnt ###  68
+0.000085 read_frame_v4l2: VIDIOC_QBUF
+0.000044 read_frame_v4l2: buf.timestamp:  0 0
+0.000047 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000033 icvRetrieveFrameCAM_V4L: ### cnt ###  68
+0.010921 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000084 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000080 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000192 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000060 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.019051 mainloop_v4l2: select:  1
+0.000118 mainloop_v4l2: select:  9 985428
+0.000082 read_frame_v4l2: VIDIOC_DQBUF
+0.000277 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  1
+0.001670 read_frame_v4l2: bufferIndex:  10
+0.000088 read_frame_v4l2: ### cnt ###  69
+0.000086 read_frame_v4l2: VIDIOC_QBUF
+0.000043 read_frame_v4l2: buf.timestamp:  0 0
+0.000048 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000032 icvRetrieveFrameCAM_V4L: ### cnt ###  69
+0.011051 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000079 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000052 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000071 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000046 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.050889 mainloop_v4l2: select:  1
+0.000117 mainloop_v4l2: select:  9 953406
+0.000083 read_frame_v4l2: VIDIOC_DQBUF
+0.000036 read_frame_v4l2: VIDIOC_DQBUF: buf.index:  2
+0.001641 read_frame_v4l2: bufferIndex:  10
+0.000086 read_frame_v4l2: ### cnt ###  70
+0.000076 read_frame_v4l2: VIDIOC_QBUF
+0.000047 read_frame_v4l2: buf.timestamp:  0 0
+0.000039 icvRetrieveFrameCAM_V4L: bufferIndex...  10
+0.000036 icvRetrieveFrameCAM_V4L: ### cnt ###  70
+0.010853 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000082 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000079 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000051 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.000071 cvGetPropertyCAM_V4L: VIDIOC_G_FMT
+0.000053 cvGetPropertyCAM_V4L: VIDIOC_G_CTRL
+0.005687 cvCloseCAM_V4L...

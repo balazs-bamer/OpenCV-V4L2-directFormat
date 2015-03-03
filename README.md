@@ -8,6 +8,8 @@ Environments with limited CPU power like Raspberry Pi computers need algorithms 
 
 * Many sources, like webcams can offer or produce only such formats. This is first converted into BGR, then the user can convert it into the desired format. However, instead of two costly conversions requiring colorspace matrix multiplication for each point each time, a copying or a much simpler conversion could be enough. Some sources, like libv4l do this conversion to BGR internally, while others retain the possibility to efficiently implement other output formats.
 
+* Although Video for Linux supports of change of resolution and cropping, I could not make the change work in an open capture session. Even if I suspend the video stream using VIDIOC_STREAMOFF and VIDIOC_STREAMON around the format change call to *icvSetVideoSize* the whole session is corrupted. The situation is the same if I try to set the same resoluiton as before. There is other [mention](http://comments.gmane.org/gmane.linux.drivers.video-input-infrastructure/30910) of similar problem. I don't know if it is a driver problem or if there is a workaround for it. For my aims more investigation just does not worth. Moreover, this tradiotional way does not allow accessing the same frame in full resolution, which feature will be important for me.
+
 * For many problems it could be enough to start an image processing algorithm on a image with far less resolution than the original one. Either the results are accurate enough, or if it finds something, subsequent processing with full resolution or using an other algorithm could make the hard work. To be short, it would be important, that during the above copy or convert step in VideoCapture the resolution could be decreased as well.
 
 * An other case is when only a portion of the image contains interesting details. By copying only this region of interest in VideoCapture the CPU demand can be further decreased.
@@ -18,9 +20,11 @@ I have extracted the files interesting for my problem to avoid collision with ex
 
 OpenCV out of the box favours libv4l over bare V4L2. In my CMakeLists.txt I have forced the capture system to use V4L2.
 
-I have decided to modify only the *retreive* routines, as cap_v4l.cpp does its conversions there. The other cap_ files are intact, and I didn't even included them here.
+I have decided to modify only the *retreive* routines, as cap_v4l.cpp does its conversions there. The other cap_ files are intact, and I didn't even included them here. This was enough in my case. My webcam does not support BGR mode, so the fallback case YUYV in *autosetup_capture_mode_v4l2* was fine for me to start from, but in full implementation a smarter pre-selection of color formats would be desirable in this function.
 
-The modified VideoCapture class is called VideoCapture_mod now. I have created a *RetrieveProps* structure in opencv2/retrieve.hpp which can be passed in VideoCapture_mod.set to prescribe the output of further retrieve calls. Important is, that any image can be retrieved with modified properties later. This means a fast algorythm can watch for interesting frames in reduced resolution or color depth, than if an event comes, it can handle the same image in full details to an other one without having to fill up the buffers and losing frames on camera resolution changes. 
+Moreover, I focused on V4L2. I didn't care what this modified library would do with only V4L.
+
+The modified VideoCapture class is called VideoCapture_mod now. I have created a *RetrieveProps* structure in opencv2/retrieve.hpp which can be passed in VideoCapture_mod.set to prescribe the output of further retrieve calls. Important is, that any image can be retrieved with modified properties later. This means a fast algorythm can watch for interesting frames in reduced resolution or color depth, than if an event comes, it can handle the same image in full details to an other task. 
 
 This description structure contains the following fields:
 
@@ -29,6 +33,10 @@ This description structure contains the following fields:
 * *region* is an unsigned OpenCV Rect describing the region to extract. It is considered only without downsampling (it takes original size region).
 
 * *colorspace* colorspace or format to be used in the original image. It can be grayscale or YCrCb. The class understands BGR, too, but it is not implemented yet. The routine for YCrCb is used instead.
+
+There are two source files providing V4L functionality, cap_v4l-diag.cpp and cap_v4l-nodiag.cpp. The latter one is the production version, the former one writes ioctl call info in /tmp/diag.log at the end of the session. An example log file is attached.
+
+I used the compiler flag -std=c++11
 
 ## Test results
 
