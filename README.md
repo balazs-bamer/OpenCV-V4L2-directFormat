@@ -34,7 +34,7 @@ This description structure contains the following fields:
 
 * *colorspace* colorspace or format to be used in the original image. It can be grayscale or YCrCb. The class understands BGR, too, but it is not implemented yet. The routine for YCrCb is used instead.
 
-There are two source files providing V4L functionality, cap_v4l-diag.cpp and cap_v4l-nodiag.cpp. The latter one is the production version, the former one writes ioctl call info in /tmp/diag.log at the end of the session. An example log file is attached.
+There are two source files providing V4L functionality, cap_v4l-diag.cpp and cap_v4l-nodiag.cpp. The latter one is the production version, the former one writes ioctl call info in /tmp/diag.log at the end of the session. Logfile contents are accumulated in an *stringstream* instance. An example log file is attached. This version modifies the first byte in each frame to an incrementing counter to be able to track them.
 
 I used the compiler flag -std=c++11
 
